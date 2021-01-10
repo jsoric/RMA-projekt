@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="50sp"
+    android:orientation="horizontal"
+    android:padding="5sp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rank"
+        android:layout_weight="1.7"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/title"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Minecraft"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/developer"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Mojang Studios"/>
+
+</LinearLayout>
